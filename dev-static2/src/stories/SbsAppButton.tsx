@@ -1,6 +1,9 @@
-import React from "react";
+export interface SbsAppButtonProps {
+  label?: string;
+  onClick?: () => void;
+}
 
-export const SbsAppButton = ({ label, ...props }) => (
+export const SbsAppButton = ({ label, ...props }: SbsAppButtonProps) => (
   <>
     <button className="btn btn-primary rounded-5 p-3" {...props}>
       {label ?? "??????"}

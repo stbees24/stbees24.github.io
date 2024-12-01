@@ -1,4 +1,3 @@
-import React from "react";
 import { SbsAppButton } from "./SbsAppButton";
 
 export const SbsAppGrid = () => (

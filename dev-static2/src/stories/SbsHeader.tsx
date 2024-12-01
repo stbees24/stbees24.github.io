@@ -1,6 +1,4 @@
-import React from 'react'
-import {  Header, type User } from "./Header"
-
+import { Header, type User } from "./Header"
 
 export interface SbsHeaderProps {
     user?: User;
