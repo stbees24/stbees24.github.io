@@ -7,9 +7,9 @@ export const SbsAppGrid = () => (
         <div className="col-6">
           <div>
             <SbsAppButton
-              label="2024 Sci Fair"
+              label="2024-2025 Science Fair"
               onClick={() => {
-                location.href = "/24-sci-fair";
+                location.href = "/2425-sci-fair";
               }}
             />
           </div>
