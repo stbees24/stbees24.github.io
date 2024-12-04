@@ -10,7 +10,7 @@ export interface SbsHeaderProps {
 
 export const SbsHeader = ({ user, onLogin, onLogout, onCreateAccount }: SbsHeaderProps) => (
     <>
-	<Header title="ST BEES" user={user} onLogin={onLogin} onLogout={onLogout} onCreateAccount={onCreateAccount}  />
+	<Header title="BEES ENTRY" user={user} onLogin={onLogin} onLogout={onLogout} onCreateAccount={onCreateAccount}  />
     </>
 )
 
