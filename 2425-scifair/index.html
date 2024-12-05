@@ -33,7 +33,14 @@
   <body>
     <div class="container">
       <div class="heading">
-        <div class="title">Letters Fusion</div>
+        <div
+          class="title"
+          id="app-title"
+          onmouseover="this.style.cursor='pointer';"
+          onclick="onTitleClick()"
+        >
+          Letters Fusion
+        </div>
         <div class="scienceeq">
           "SCIENCE" == "S" + "C" + "I" + "E" + "N" + "C" + "E"
         </div>
@@ -140,7 +147,12 @@
             conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
         </p> -->
     </div>
-
+    <script>
+      function onTitleClick(evt) {
+        localStorage.clear();
+        location.reload();
+      }
+    </script>
     <script src="js/bind_polyfill.js"></script>
     <script src="js/classlist_polyfill.js"></script>
     <script src="js/animframe_polyfill.js"></script>
