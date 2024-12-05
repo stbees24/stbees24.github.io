@@ -73,55 +73,55 @@ HTMLActuator.prototype.addTile = function (tile) {
   switch (tile.value) {
     case 2:
       line1.textContent = "S";
-      line1.style.fontSize = ".9em";
+      line1.style.fontSize = "0.9em";
       break;
     case 4:
       line1.textContent = "SC";
-      line1.style.fontSize = ".9em";
+      line1.style.fontSize = "0.9em";
       break;
     case 8:
       line1.textContent = "SCI";
-      line1.style.fontSize = ".9em";
+      line1.style.fontSize = "0.9em";
       break;
     case 16:
       line1.textContent = "SCIE";
-      line1.style.fontSize = ".9em";
+      line1.style.fontSize = "0.9em";
       break;
     case 32:
       line1.textContent = "SCIEN";
-      line1.style.fontSize = ".9em";
+      line1.style.fontSize = "0.9em";
       break;
     case 64:
       line1.textContent = "SCIENC";
-      line1.style.fontSize = ".8em";
+      line1.style.fontSize = "0.8em";
       break;
     case 128:
       line1.textContent = "SCIENCE";
-      line1.style.fontSize = ".8em";
+      line1.style.fontSize = "0.8em";
       break;
     case 256:
       line1.textContent = "SCIENCE";
-      line1.style.fontSize = ".7em";
+      line1.style.fontSize = "0.7em";
       line2.textContent = "F";
-      line2.style.fontSize = ".7em";
+      line2.style.fontSize = "0.7em";
       break;
     case 512:
       line1.textContent = "SCIENCE";
-      line1.style.fontSize = ".7em";
+      line1.style.fontSize = "0.7em";
       line2.textContent = "FA";
-      line2.style.fontSize = ".7em";
+      line2.style.fontSize = "0.7em";
       break;
     case 1024:
       line1.textContent = "SCIENCE";
-      line1.style.fontSize = ".7em";
+      line1.style.fontSize = "0.7em";
       line2.textContent = "FAI";
-      line2.style.fontSize = ".7em";
+      line2.style.fontSize = "0.7em";
       break;
     case 2048:
       line1.textContent = "SCIENCE";
-      line1.style.fontSize = ".7em";
+      line1.style.fontSize = "0.7em";
       line2.textContent = "FAIR";
-      line2.style.fontSize = ".7em";
+      line2.style.fontSize = "0.7em";
       break;
     default:
       line1.textContent = "???";
