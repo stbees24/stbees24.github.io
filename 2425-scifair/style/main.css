@@ -1,6 +1,6 @@
 /* @import url(fonts/clear-sans.css); */
 :root {
-  --ctn-width: 1800px;
+  --ctn-width: 2500px;
   --ctn-height: 860px;
   --cell-gutter: 15px;
   --ranklist-width: 30em;
@@ -254,6 +254,7 @@ hr {
   background: var(--color-darkyellow);
   overflow: hidden;
   border-radius: 10px;
+  border: 2px solid darkgrey;
 }
 
 .credit-container-title {
@@ -340,6 +341,7 @@ hr {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  border: 2px solid darkgrey;
 }
 
 .game-container .game-message {
@@ -541,7 +543,7 @@ hr {
   font-size: 55px;
 }
 .tile.tile-2 .tile-inner {
-  background: #eee4da;
+  background: lightblue;
   box-shadow:
     0 0 30px 10px rgba(243, 215, 116, 0),
     inset 0 0 0 1px rgba(255, 255, 255, 0);
@@ -553,23 +555,23 @@ hr {
     inset 0 0 0 1px rgba(255, 255, 255, 0);
 }
 .tile.tile-8 .tile-inner {
-  color: #f9f6f2;
+  /* color: #f9f6f2; */
   background: #f2b179;
 }
 .tile.tile-16 .tile-inner {
-  color: #f9f6f2;
+  /* color: #f9f6f2; */
   background: #f59563;
 }
 .tile.tile-32 .tile-inner {
-  color: #f9f6f2;
+  /* color: #f9f6f2; */
   background: #f67c5f;
 }
 .tile.tile-64 .tile-inner {
-  color: #f9f6f2;
+  /* color: #f9f6f2; */
   background: #f65e3b;
 }
 .tile.tile-128 .tile-inner {
-  color: #f9f6f2;
+  /* color: darkgray; */
   background: #edcf72;
   box-shadow:
     0 0 30px 10px rgba(243, 215, 116, 0.2381),
@@ -1108,6 +1110,7 @@ hr {
   align-items: center;
   overflow: hidden;
   border-radius: 10px;
+  border: 2px solid darkgrey;
 }
 
 .game-and-board .rank-board .rank-list-title {
