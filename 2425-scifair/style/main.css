@@ -67,6 +67,7 @@ body {
 }
 
 .title {
+  width: 7em;
   font-size: 2.5em;
   background: gold;
   padding: 0.2em 0.5em;
