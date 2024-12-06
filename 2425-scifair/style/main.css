@@ -83,7 +83,7 @@ body {
   font-size: 2em;
   background: black;
   color: lightgreen;
-  font-weight: 1000;
+  /* font-weight: 1000; */
   padding: 0.5em;
   border-radius: 0.5em;
   width: 50em;
